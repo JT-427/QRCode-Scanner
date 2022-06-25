@@ -42,7 +42,7 @@ class Request{
         request.httpMethod = "POST"
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
         let encoder = JSONEncoder()
-        let sk = SendSK(sk: "382u+)^$#Cßå©∆fbjds893@#@TRG!", activity_id: activity_id_choosed)
+        let sk = SendSK(sk: "", activity_id: activity_id_choosed)
         let data = try? encoder.encode(sk)
         request.httpBody = data
         

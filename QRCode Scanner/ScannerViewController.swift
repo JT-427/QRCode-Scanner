@@ -8,7 +8,7 @@
 import UIKit
 import AVFoundation
 var activity_id_choosed = ""
-let domainName = "https://www.tncc.cf"
+let domainName = "https://"
 //let domainName = "https://f79a-123-194-158-79.ngrok.io"
 class ScannerViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
     
@@ -197,4 +197,8 @@ class ScannerViewController: UIViewController, AVCaptureMetadataOutputObjectsDel
     }
     */
 
+    @IBAction func refresh(_ sender: Any) {
+        loadActivities()
+    }
+    
 }
