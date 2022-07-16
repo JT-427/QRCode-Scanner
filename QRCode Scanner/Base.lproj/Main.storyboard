@@ -34,9 +34,8 @@
                                                 </menu>
                                                 <state key="normal" title="請選擇場次"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L2b-z4-Ou4">
-                                                <rect key="frame" x="298" y="10" width="43" height="31"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L2b-z4-Ou4">
+                                                <rect key="frame" x="321" y="9.6666666666666661" width="43" height="30.666666666666671"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="arrow.clockwise" catalog="system"/>
                                                 <connections>
@@ -52,7 +51,9 @@
                                             <constraint firstAttribute="trailing" secondItem="3Tr-De-FIB" secondAttribute="trailing" constant="50" id="Hlp-6i-3Tn"/>
                                             <constraint firstAttribute="height" constant="50" id="Prm-jI-8aU"/>
                                             <constraint firstItem="3Tr-De-FIB" firstAttribute="leading" secondItem="ORW-C4-rSg" secondAttribute="leading" constant="50" id="hFW-Kr-f6f"/>
+                                            <constraint firstAttribute="trailing" secondItem="L2b-z4-Ou4" secondAttribute="trailing" constant="10" id="o2P-EW-03k"/>
                                             <constraint firstItem="3Tr-De-FIB" firstAttribute="top" secondItem="ORW-C4-rSg" secondAttribute="top" constant="10" id="v9Q-0W-GEp"/>
+                                            <constraint firstItem="L2b-z4-Ou4" firstAttribute="centerY" secondItem="ORW-C4-rSg" secondAttribute="centerY" id="wtX-g8-WpG"/>
                                         </constraints>
                                     </view>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Wg5-Kt-67h">
